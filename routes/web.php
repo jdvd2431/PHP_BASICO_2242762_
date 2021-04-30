@@ -42,3 +42,19 @@ Route::get('arreglos_multi', function(){
     var_dump($estudiantes);
     echo "<pre>";
 });
+Route::get('arreglos_multi', function(){
+    $estudiantes=[  "AN" => 'Ana',
+                    "MA" => 'Maria',
+                    "JO" => 'Jorje' ];
+    echo "<pre>";
+    var_dump($estudiantes);
+    echo "<pre>";
+});
+Route::get('arreglos_multi', function(){
+    $estudiantes=[  "AN" => 'Ana',
+                    "MA" => 'Maria',
+                    "JO" => 'Jorje' ];
+    echo "<pre>";
+    var_dump($estudiantes);
+    echo "<pre>";
+});
