@@ -34,6 +34,22 @@ Route::get('arreglos', function(){
     var_dump($estudiantes);
     echo "<pre>";
 });
+Route::get('arreglos', function(){
+    $estudiantes=[  "AN" => 'Ana',
+                    "MA" => 'Maria',
+                    "JO" => 'Jorje' ];
+    echo "<pre>";
+    var_dump($estudiantes);
+    echo "<pre>";
+});
+Route::get('arreglos', function(){
+    $estudiantes=[  "AN" => 'Ana',
+                    "MA" => 'Maria',
+                    "JO" => 'Jorje' ];
+    echo "<pre>";
+    var_dump($estudiantes);
+    echo "<pre>";
+});
 route::get("paises",function(){
     $paises = ["Colombia" =>[
                                 "capital" => "Bogotá",
