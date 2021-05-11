@@ -34,6 +34,7 @@ Route::get('arreglos', function(){
     var_dump($estudiantes);
     echo "<pre>";
 });
+
 route::get("paises",function(){
     $paises = ["Colombia" =>[
                                 "capital" => "Bogotá",
