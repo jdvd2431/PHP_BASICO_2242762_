@@ -13,7 +13,7 @@
         <fieldset>
 
         <!-- Form Name -->
-        <legend>buscador en diferentes motores de busqueda</legend>
+        <center><legend style="background:#C8C8C8; color:#000000; ">Buscador en diferentes motores de busqueda</legend></center>
 
         <!-- Text input-->
         <div class="form-group">
@@ -28,21 +28,88 @@
         <div class="form-group">
           <label class="col-md-4 control-label" for="motores">Seleccione motor de busqueda</label>
           <div class="col-md-4">
+              <div class="radio">
           <div class="checkbox">
             <label for="motores-0">
               <input type="checkbox" name="motores" id="motores-0" value="1">
               Google
             </label>
             </div>
+        </div>
+            <div class="radio">
           <div class="checkbox">
             <label for="motores-1">
               <input type="checkbox" name="motores" id="motores-1" value="2">
               Bing
             </label>
             </div>
+        </div>
+            <div class="radio">
+                <div class="checkbox">
+                    <label for="motores-3">
+                      <input type="checkbox" name="motores" id="motores-3" value="3">
+                      Duckduckgo
+                    </label>
+                    </div>
+            </div>
+            <div class="radio">
+                <div class="checkbox">
+                    <label for="motores-4">
+                      <input type="checkbox" name="motores" id="motores-4" value="4">
+                      ask
+                    </label>
+                    </div>
+            </div>
+            <div class="radio">
+                <div class="checkbox">
+                    <label for="motores-5">
+                      <input type="checkbox" name="motores" id="motores-5" value="5">
+                    Udemy
+                    </label>
+                 </div>
+            </div>
+            <div class="radio">
+                <div class="checkbox">
+                    <label for="motores-6">
+                      <input type="checkbox" name="motores" id="motores-6" value="6">
+                      Ecosia
+                    </label>
+                 </div>
+            </div>
+            <div class="radio">
+                <div class="checkbox">
+                    <label for="motores-7">
+                      <input type="checkbox" name="motores" id="motores-7" value="7">
+                      Seznam
+                    </label>
+                 </div>
+            </div>
+            <div class="radio">
+                <div class="checkbox">
+                    <label for="motores-8">
+                      <input type="checkbox" name="motores" id="motores-8" value="8">
+                      Qwant
+                    </label>
+                 </div>
+            </div>
+            <div class="radio">
+                <div class="checkbox">
+                    <label for="motores-9">
+                      <input type="checkbox" name="motores" id="motores-9" value="9">
+                      Amazon
+                    </label>
+                 </div>
+            </div>
+            <div class="radio">
+                <div class="checkbox">
+                    <label for="motores-10">
+                      <input type="checkbox" name="motores" id="motores-10" value="10">
+                      Youtube
+                    </label>
+                 </div>
+            </div>
           </div>
         </div>
-
         <!-- Button -->
         <div class="form-group">
           <label class="col-md-4 control-label" for="buscar"></label>
